@@ -34,7 +34,7 @@
 把下面这句话发给你的 AI Agent（Claude Code / Trae / Cursor 等支持 Agent Skill 的工具），它会把本仓库的 `enterprise-geo` 装进自己的 skill 目录，之后随时可调用：
 
 ```
-先自己安装 enterprise-geo 这个 Agent Skill：git clone https://github.com/dizan/enterprise-geo.git，把 skill/enterprise-geo/SKILL.md 作为可用的 Agent Skill 安装好。装好后告诉我你已就绪，并汇报装到了哪里。
+先自己安装 enterprise-geo 这个 Agent Skill：git clone https://github.com/iguoguo/enterprise-geo.git，把 skill/enterprise-geo/SKILL.md 作为可用的 Agent Skill 安装好。装好后告诉我你已就绪，并汇报装到了哪里。
 ```
 
 > 装一次即可。装好后 skill 会按 `SKILL.md` 里的 `name` / `description` 被 Agent 自动识别，供后续所有用例随时调用。
@@ -92,10 +92,6 @@
 - 想深入理解某阶段时，参考 `docs/方案-企业GEO优化架构性方案.md` 对应分册。
 - 若你的 Agent 在安装时需要确认 skill 目录位置，它会先询问或自动兼容处理，你无需干预。
 
-### 看效果 & 免费体检
-
-- 想看自己企业现在在 AI 里的基线表现，无需自己搭工具：官网免费体检入口 [https://idizan.com/geo](https://idizan.com/geo)。
-- 详细方法论见 `docs/方案-企业GEO优化架构性方案.md`（想深入理解时才需要读）。
 
 ## 主要功能
 
